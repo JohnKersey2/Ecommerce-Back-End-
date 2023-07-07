@@ -40,7 +40,7 @@ router.post('/', (req, res) => {
   catch (err) { res.json(err) };
 });
 
-// updata category by its id
+// update category by its id
 router.put('/:id', (req, res) => {
   try {
     Category.update({
